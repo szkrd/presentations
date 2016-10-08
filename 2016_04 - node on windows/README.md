@@ -59,3 +59,12 @@
 * `git config --global core.excludesfile ~/.gitignore_global`
 * may use `source nodemon.sh`
 * consider [PM2](https://www.npmjs.com/package/pm2)
+
+---
+---
+
+## Troubleshooting-20161001
+
+* error: `error C2373: '__pfnDliNotifyHook2': redefinition`
+* cause: npm version below 3.10.8
+* fix: `npm -g install npm@next && npm config set msvs_version 2015 --global`
