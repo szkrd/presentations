@@ -67,6 +67,8 @@
 ****:cop: :angel: :smiley_cat: :smile_cat:
 :scream_cat: :crying_cat_face: :see_no_evil: :hear_no_evil: :speak_no_evil:****
 
+(two strong tags required, will be broken on github)
+
 ---
 ---
 
@@ -84,3 +86,5 @@
 ### Online
 
 ![Placehold it](https://placeholdit.imgix.net/~text?txtsize=33&txt=online%20image&w=350&h=80)
+
+(github may try to resolve it as a local url, though it really shouldn't)
