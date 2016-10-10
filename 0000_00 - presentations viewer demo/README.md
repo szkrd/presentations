@@ -17,6 +17,7 @@
 
 * __HOME/0__ = first page
 * __END/9__ = last page
+* __f__ = toggle fullscreen
 * __h__ = table of contents
 * __+__ = increase font
 * __-__ = decrease font
@@ -34,8 +35,7 @@
 
 ### Highlighted code blocks
 
-* uses highlight.js
-* has upstream bugs :disappointed:
+#### with highlight.js
 
 ```handlebars
 <div class="entry">
