@@ -167,7 +167,7 @@ export default new EventBus()
 
 ```js
 {
-    data: () => getSessionItem(SESSION_KEY) || defaultData,
+    data: () => getSessionItem(SESSION_KEY) || getDefaultData(),
     watch: {
         $data: {
             handler: val => setSessionItem(SESSION_KEY, val),
